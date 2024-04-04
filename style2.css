@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #404040;
+    overflow: hidden;
+}
+
+.container {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid grey;
+    background-color: white;
+}
+.block-container ,.image-container{
+        position: relative;
+        display: block;
+        width: 50vw;
+        height: 100vh;
+        float: left;
+    }
+    .block-container h2 {
+            padding-top: 10vh;
+            padding-bottom: 5vh;
+            text-align: center;
+            color: #212283;
+            opacity: 0.9;
+            font-weight: 700;
+            font-size: 26px;
+        }
+        .block-container    h3 {
+            font-weight: 600;
+            font-family: helvetica;
+            color: black;
+            opacity: 0.8;
+            font-size: 22px;
+            text-align: center;
+            color: #333333;
+        }
+        .block-container      p {
+            margin-top: -5px;
+            color: #AFAFAF;
+            letter-spacing: 0.05em;
+            font-size: 12px;
+            text-align: center;
+        }
+        #email {
+            margin-top: 80px;
+            padding-left: 5px;
+            width: 65%;
+            height: 40px;
+            display: block;
+            margin-right: auto;
+            margin-left: auto;
+            color: #AFAFAF;
+            border: 1px solid #CECECE;
+            opacity: 0.8;
+        }
+        .submit {
+            margin-top: 20px;
+            margin-right: auto;
+            margin-left: auto;
+            display: block;
+            border: none;
+            width: 65%;
+            height: 40px;
+            background-color: #79F;
+            color: white;
+        }
+        .submit:hover {
+            background-color: #55F;
+        }
+        a {
+            display: block;
+            font-size: 10px;
+            margin-top: 30px;
+            text-decoration: none;
+            color: 8E8E8E;
+            text-align: center;
+        }
+    .image-container {
+        background-image: url("image2.jpeg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+@media screen and (max-width:425px){
+    .block-container{
+        width: 100vw;
+    }
+}

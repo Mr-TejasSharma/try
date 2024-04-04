@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #404040;
+    overflow: hidden;
+}
+
+.container {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+}
+
+.block-container,.image-container {
+    display: block;
+    width: 50vw;
+    height: 100vh;
+    float: left;
+}
+
+.block-container h2 {
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+    text-align: center;
+    color: #1136a5;
+    opacity: 0.9;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+.block-container h3 {
+    font-weight: 600;
+    font-family: helvetica;
+    color: black;
+    opacity: 0.8;
+    font-size: 22px;
+    text-align: center;
+    color: #333333;
+}
+
+.block-container p {
+    margin-top: -5px;
+    color: #afafaf;
+    letter-spacing: 0.05em;
+    font-size: 12px;
+    text-align: center;
+}
+
+#email,
+#password {
+    margin-top: 20px;
+    padding-left: 5px;
+    width: 65%;
+    height: 40px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    color: #afafaf;
+    border: 1px solid #cecece;
+    opacity: 0.8;
+}
+
+.submit {
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    border: none;
+    width: 65%;
+    height: 40px;
+    background-color: #79f;
+    color: white;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: #55f;
+}
+
+a {
+    display: block;
+    font-size: 12px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #8e8e8e;
+    text-align: center;
+}
+
+.image-container {
+    background-image: url("image.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+@media screen and (max-width:425px){
+    .block-container{
+        width: 100vw;
+    }
+}
